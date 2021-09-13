@@ -1,9 +1,11 @@
 import React from "react";
 
 function Footer(){
+    const currentYear = new Date().getFullYear();
+
     return(
         <footer>
-            <p>Copyright ⓒ 2021 by Thanh Hien Tran</p>
+            <p>Copyright ⓒ {currentYear} by Thanh Hien Tran</p>
         </footer>
     );
 }

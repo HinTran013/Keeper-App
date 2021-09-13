@@ -12,15 +12,9 @@
 //HINT: You will need to study the classes in teh styles.css file to apply styling.
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Header'
-import Note from './components/Note'
-import Footer from './components/Footer'
+import App from './components/App';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <Header />
-        <Note />
-        <Footer />
-    </React.StrictMode>
+    <App />
     ,document.getElementById('root')
 )
